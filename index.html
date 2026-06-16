@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SharedBrain</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div id="app"></div>
+    <template id="idea-card-template">
+      <article class="idea-card">
+        <div class="card-media"></div>
+        <div class="card-body">
+          <div class="card-meta-row">
+            <span class="source-pill"></span>
+            <span class="film-date"></span>
+          </div>
+          <h3></h3>
+          <p class="card-note"></p>
+          <div class="category-row"></div>
+          <a class="card-url" target="_blank" rel="noreferrer">Open source</a>
+        </div>
+      </article>
+    </template>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
