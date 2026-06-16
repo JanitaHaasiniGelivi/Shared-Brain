@@ -39,6 +39,3 @@ The app uses the Firebase project `sharedspace-6ac5c`.
 
 The profile modal creates a private agent token and a copyable instruction block. The included rules keep the database available only to authenticated Firebase users. For token-only agent access without Google sign-in, add a Firebase Cloud Function or custom auth flow that validates `agentTokens/{token}` before reading or writing ideas.
 
-## AI Title Suggestions
-
-The app calls `/api/suggest-title`, which is handled by `server.js`. The OpenAI key lives in `.env.local`, which is ignored by git. For a team production deployment, move this server endpoint into a Firebase Cloud Function or another private backend.
