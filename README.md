@@ -15,8 +15,6 @@ A Firebase-backed internal web app for a shared visual second brain for video id
 - Search and filters
 
 
-# Locally Runned Using
-http://localhost:5173
 
 
 
